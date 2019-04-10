@@ -1,0 +1,75 @@
+System.Web.HttpException (0x80004005): The file '/SalaryRange/SalaryRangeSetup.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HR.SalaryRange.GenerateDownload.Page_Load(Object sender, EventArgs e) in C:\Users\subha mukhopadhyay\Sources\HRCMS\02_dev\application\HRCMS\HRCMS\HR\SalaryRange\GenerateDownload.aspx.cs:line 19
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HR.Global.LoadUserInfo() in C:\Users\subha mukhopadhyay\Sources\HRCMS\02_dev\application\HRCMS\HRCMS\HR\Global.asax.cs:line 131
+   at HR.Global.Session_Start(Object sender, EventArgs e) in C:\Users\subha mukhopadhyay\Sources\HRCMS\02_dev\application\HRCMS\HRCMS\HR\Global.asax.cs:line 60
+   at System.Web.SessionState.SessionStateModule.RaiseOnStart(EventArgs e)
+   at System.Web.SessionState.SessionStateModule.CompleteAcquireState()
+   at System.Web.SessionState.SessionStateModule.BeginAcquireState(Object source, EventArgs e, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.Exception: You are not authorized to use this application. User: CITNET\Ashley Alper - Email 
+   at HR.Global.LoadUserInfo() in C:\Users\subha mukhopadhyay\Sources\HRCMS\02_dev\application\HRCMS\HRCMS\HR\Global.asax.cs:line 148
+   at HR.Global.Session_Start(Object sender, EventArgs e) in C:\Users\subha mukhopadhyay\Sources\HRCMS\02_dev\application\HRCMS\HRCMS\HR\Global.asax.cs:line 60
+   at System.Web.SessionState.SessionStateModule.RaiseOnStart(EventArgs e)
+   at System.Web.SessionState.SessionStateModule.CompleteAcquireState()
+   at System.Web.SessionState.SessionStateModule.BeginAcquireState(Object source, EventArgs e, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.Exception: You are not authorized to use this application.
+   at HR.Global.getEmailFromADName(String userName) in C:\Users\subha mukhopadhyay\Sources\HRCMS\02_dev\application\HRCMS\HRCMS\HR\Global.asax.cs:line 190
+   at HR.Global.LoadUserInfo() in C:\Users\subha mukhopadhyay\Sources\HRCMS\02_dev\application\HRCMS\HRCMS\HR\Global.asax.cs:line 127
+   at HR.Global.Session_Start(Object sender, EventArgs e) in C:\Users\subha mukhopadhyay\Sources\HRCMS\02_dev\application\HRCMS\HRCMS\HR\Global.asax.cs:line 60
+   at System.Web.SessionState.SessionStateModule.RaiseOnStart(EventArgs e)
+   at System.Web.SessionState.SessionStateModule.CompleteAcquireState()
+   at System.Web.SessionState.SessionStateModule.BeginAcquireState(Object source, EventArgs e, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.Exception: You are not authorized to use this application.
+   at HR.Global.getEmailFromADName(String userName) in C:\Users\subha mukhopadhyay\Sources\HRCMS\02_dev\application\HRCMS\HRCMS\HR\Global.asax.cs:line 190
+   at HR.Global.LoadUserInfo() in C:\Users\subha mukhopadhyay\Sources\HRCMS\02_dev\application\HRCMS\HRCMS\HR\Global.asax.cs:line 127
+   at HR.Global.Session_Start(Object sender, EventArgs e) in C:\Users\subha mukhopadhyay\Sources\HRCMS\02_dev\application\HRCMS\HRCMS\HR\Global.asax.cs:line 60
+   at System.Web.SessionState.SessionStateModule.RaiseOnStart(EventArgs e)
+   at System.Web.SessionState.SessionStateModule.CompleteAcquireState()
+   at System.Web.SessionState.SessionStateModule.BeginAcquireState(Object source, EventArgs e, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HR.Global.LoadUserInfo() in C:\Users\subha mukhopadhyay\Sources\HRCMS\02_dev\application\HRCMS\HRCMS\HR\Global.asax.cs:line 131
+   at HR.Global.Session_Start(Object sender, EventArgs e) in C:\Users\subha mukhopadhyay\Sources\HRCMS\02_dev\application\HRCMS\HRCMS\HR\Global.asax.cs:line 60
+   at System.Web.SessionState.SessionStateModule.RaiseOnStart(EventArgs e)
+   at System.Web.SessionState.SessionStateModule.CompleteAcquireState()
+   at System.Web.SessionState.SessionStateModule.BeginAcquireState(Object source, EventArgs e, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.AsyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+System.Web.HttpException (0x80004005): The file '/SalaryRange/RSUVestingUpload.aspx' does not exist.
+   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

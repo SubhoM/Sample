@@ -1,0 +1,28 @@
+﻿.dropdown-toggle
+{
+    min-width :100px;
+
+    span{
+
+        text-align:left;
+    }
+}
+
+a{
+    label{
+        width:100%
+    }
+}
+
+
+
+
+.dropdown {
+    .btn {
+        white-space: normal !important;
+        max-width: 300px;
+    }
+    ul {
+        max-width: 300px;
+    }
+}

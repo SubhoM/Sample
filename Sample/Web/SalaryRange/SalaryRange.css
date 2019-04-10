@@ -1,0 +1,18 @@
+﻿.tdRangeCriteria {
+  width: 50%; }
+
+.lblRangeCriteria, .tdRange {
+  width: 25%; }
+
+th {
+  text-align: center; }
+
+.dropdown-menu {
+  margin-top: 10px; }
+
+.RangeInput {
+  color: grey; }
+
+.trApplicableGrid {
+  display: none;
+  color: blue; }
